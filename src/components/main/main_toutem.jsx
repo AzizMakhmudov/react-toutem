@@ -529,7 +529,7 @@ export default function main_toutem() {
             </p>
           </div>
           <div className="blog-box">
-            <img className="blog-image" src="./img/blog.png" alt="blog" />
+            <img className="blog-image" src="/src/assets/img/blog.png" alt="blog" />
             <h3 className="blog-h3__title">
               How to create your own essential oil diffuser blends
             </h3>
