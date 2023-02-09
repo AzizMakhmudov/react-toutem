@@ -19,7 +19,7 @@ export default function main_toutem() {
           <div className="box-fruits">
             <img
               className="img-fruits"
-              src="./img/fruits.png"
+              src="/src/assets/img/fruits.png"
               alt="fruits"
               width={690}
               height={580}
@@ -253,7 +253,7 @@ export default function main_toutem() {
           <div className="first-box__collection">
             <img
               className="toutem-img"
-              src="./img/Rectangle 60.png"
+              src="/src/assets/img/Rectangle 60.png"
               alt="two toutem"
             />
           </div>
@@ -284,7 +284,7 @@ export default function main_toutem() {
             <div className="first-diffuser">
               <img
                 className="img-diffuser"
-                src="./img/diffuser first.png"
+                src="/src/assets/img/diffuser first.png"
                 alt="first diffuser"
               />
               <div className="diffuser-content">
@@ -328,7 +328,7 @@ export default function main_toutem() {
             <div className="second-diffuser">
               <img
                 className="img-diffuser"
-                src="./img/Rectangle 51.png"
+                src="/src/assets/img/Rectangle 51.png"
                 alt="diffuser"
               />
               <div className="diffuser-content__2">
@@ -398,7 +398,7 @@ export default function main_toutem() {
               width="672px"
               height="523px"
               className="right-side"
-              src="./img/Right Side.png"
+              src="/src/assets/img/Right Side.png"
               alt="right-side"
             />
           </div>
@@ -416,7 +416,7 @@ export default function main_toutem() {
             <div className="first-diffuser trends-first__diffuser">
               <img
                 className="img-diffuser"
-                src="./img/Rectangle 57.png"
+                src="/src/assets/img/Rectangle 57.png"
                 alt="first diffuser"
               />
               <div className="diffuser-content">
@@ -459,7 +459,7 @@ export default function main_toutem() {
             </div>
             <div className="second-diffuser">
               <img
-                src="./img/Rectangle 58.png"
+                src="/src/assets/img/Rectangle 58.png"
                 className="img-diffuser"
                 alt="diffuser"
               />
@@ -518,7 +518,7 @@ export default function main_toutem() {
         <section className="blog-section">
           <h2 className="blog-h2">BLOG</h2>
           <div className="blog-box first-blog__box">
-            <img className="blog-image" src="./img/blog.png" alt="blog" />
+            <img className="blog-image" src="/src/assets/img/blog.png" alt="blog" />
             <h3 className="blog-h3__title">
               How to create your own essential oil diffuser blends
             </h3>
@@ -540,7 +540,7 @@ export default function main_toutem() {
             </p>
           </div>
           <div className="blog-box">
-            <img className="blog-image" src="./img/blog.png" alt="blog" />
+            <img className="blog-image" src="/src/assets/img/blog.png" alt="blog" />
             <h3 className="blog-h3__title">
               How to create your own essential oil diffuser blends
             </h3>

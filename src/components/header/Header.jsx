@@ -1,7 +1,7 @@
 import React from "react";
 import "../all/all.css";
 import "./Header.css";
-import '../all/normalize.css'
+import "../all/normalize.css";
 
 export default function Header() {
   return (

@@ -245,7 +245,7 @@
 }
 
 .first-box__bestseller {
-  background-image: url(/img/Vector.png);
+  background-image: url(/src/assets/img/Vector.png);
   width: 432px;
   height: 610px;
   background-repeat: no-repeat;
@@ -414,7 +414,7 @@
   width: 100%;
   height: 523px;
   background-color: #5fd788;
-  background-image: url(/img/Texture_2_.png);
+  background-image: url(/src/assets/img/Texture_2_.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -463,7 +463,7 @@
 }
 
 .trends__first--box {
-  background-image: url(/img/flowertrends.png);
+  background-image: url(src/assets/img/flowertrends.png);
   width: 563px;
   height: 850px;
   background-size: contain;
