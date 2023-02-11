@@ -2,7 +2,16 @@ import React from "react";
 import "../all/all.css";
 import "./main.css";
 import "../all/normalize.css";
-import "../../assets/img";
+import imgURl from "../../assets/img/fruits.png";
+import imgUrl2 from "../../assets/img/Rectangle 60.png";
+import imgUrl3 from "../../assets/img/diffuser first.png";
+import imgUrl4 from "../../assets/img/Rectangle 51.png";
+import imgUrl5 from "../../assets/img/Right Side.png";
+import imgUrl6 from "../../assets/img/Rectangle 57.png";
+import imgUrl7 from "../../assets/img/Rectangle 58.png";
+import imgUrl8 from "../../assets/img/blog.png";
+import imgUrl9 from "../../assets/img/blog.png";
+import imgUrl10 from "../../assets/img/blog.png";
 
 export default function main_toutem() {
   return (
@@ -20,7 +29,7 @@ export default function main_toutem() {
           <div className="box-fruits">
             <img
               className="img-fruits"
-              src="/src/assets/img/fruits.png"
+              src={imgURl}
               alt="fruits"
               width={690}
               height={580}
@@ -252,11 +261,7 @@ export default function main_toutem() {
         </section>
         <section className="collection-section">
           <div className="first-box__collection">
-            <img
-              className="toutem-img"
-              src="/src/assets/img/Rectangle 60.png"
-              alt="two toutem"
-            />
+            <img className="toutem-img" src={imgUrl2} alt="two toutem" />
           </div>
           <div className="second-box__collection">
             <h2 className="h2-collection">
@@ -285,7 +290,7 @@ export default function main_toutem() {
             <div className="first-diffuser">
               <img
                 className="img-diffuser"
-                src="/src/assets/img/diffuser first.png"
+                src={imgUrl3}
                 alt="first diffuser"
               />
               <div className="diffuser-content">
@@ -327,11 +332,7 @@ export default function main_toutem() {
               </div>
             </div>
             <div className="second-diffuser">
-              <img
-                className="img-diffuser"
-                src="/src/assets/img/Rectangle 51.png"
-                alt="diffuser"
-              />
+              <img className="img-diffuser" src={imgUrl4} alt="diffuser" />
               <div className="diffuser-content__2">
                 <div className="diffuser-price">
                   <h4 className="h4-diffuser">Lux Aroma Diffuser</h4>
@@ -399,7 +400,7 @@ export default function main_toutem() {
               width="672px"
               height="523px"
               className="right-side"
-              src="/src/assets/img/Right Side.png"
+              src={imgUrl5}
               alt="right-side"
             />
           </div>
@@ -417,7 +418,7 @@ export default function main_toutem() {
             <div className="first-diffuser trends-first__diffuser">
               <img
                 className="img-diffuser"
-                src="/src/assets/img/Rectangle 57.png"
+                src={imgUrl6}
                 alt="first diffuser"
               />
               <div className="diffuser-content">
@@ -459,11 +460,7 @@ export default function main_toutem() {
               </div>
             </div>
             <div className="second-diffuser">
-              <img
-                src="/src/assets/img/Rectangle 58.png"
-                className="img-diffuser"
-                alt="diffuser"
-              />
+              <img src={imgUrl7} className="img-diffuser" alt="diffuser" />
               <div className="diffuser-content__2">
                 <div className="diffuser-price">
                   <h4 className="h4-diffuser">Uplift Handcrafted Soap Bar</h4>
@@ -519,7 +516,7 @@ export default function main_toutem() {
         <section className="blog-section">
           <h2 className="blog-h2">BLOG</h2>
           <div className="blog-box first-blog__box">
-            <img className="blog-image" src="/src/assets/img/blog.png" alt="blog" />
+            <img className="blog-image" src={imgUrl8} alt="blog" />
             <h3 className="blog-h3__title">
               How to create your own essential oil diffuser blends
             </h3>
@@ -530,7 +527,7 @@ export default function main_toutem() {
             </p>
           </div>
           <div className="blog-box">
-            <img className="blog-image" src="/src/assets/img/blog.png" alt="blog" />
+            <img className="blog-image" src={imgUrl9} alt="blog" />
             <h3 className="blog-h3__title">
               How to create your own essential oil diffuser blends
             </h3>
@@ -541,7 +538,7 @@ export default function main_toutem() {
             </p>
           </div>
           <div className="blog-box">
-            <img className="blog-image" src="/src/assets/img/blog.png" alt="blog" />
+            <img className="blog-image" src={imgUrl10} alt="blog" />
             <h3 className="blog-h3__title">
               How to create your own essential oil diffuser blends
             </h3>
