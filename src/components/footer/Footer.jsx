@@ -2,6 +2,7 @@ import React from "react";
 import "../all/all.css";
 import "./Footer.css";
 import "../all/normalize.css";
+import "../../assets/img";
 
 export default function Footer() {
   return (
